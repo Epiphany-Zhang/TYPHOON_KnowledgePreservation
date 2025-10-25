@@ -63,7 +63,10 @@
 
 选项 3：在线访问
 直接访问已部署的网站：
-https://typhoon-knowledge-preservation-ahty.vercel.app/
+https://typhoon-knowledge-preservation-2zw2grkgf.vercel.app/
+
+或者国内托管网站:
+typhoon-knowledge-preservation-ahty.online
 
 🔧 开发相关命令：
 - npm install        → 安装项目依赖
@@ -95,13 +98,7 @@ https://typhoon-knowledge-preservation-ahty.vercel.app/
 2. 移动设备上部分交互元素可能响应较慢，正在优化中
 3. 离线使用时部分外部资源可能无法加载，已实现基本离线功能
 
-📞 联系与反馈：
-如有问题或建议，请通过以下方式联系：
-- 邮箱：your-email@example.com
-- GitHub Issues：https://github.com/your-username/typhoon-knowledge-platform/issues
-
 📄 许可证：
 本项目采用 MIT 许可证，详情请查看 LICENSE 文件
 
 ---
-最后更新：2024年7月
