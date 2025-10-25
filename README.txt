@@ -102,3 +102,4 @@ typhoon-knowledge-preservation-ahty.online
 本项目采用 MIT 许可证，详情请查看 LICENSE 文件
 
 ---
+⚠️ **免责声明**：本平台提供的信息仅供参考，实际防灾决策请以官方气象部门发布的预警和指导为准。
