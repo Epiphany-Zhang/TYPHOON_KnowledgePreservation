@@ -1,0 +1,76 @@
+/**
+ * EyeDiagram.module.css
+ * CSS Modules for the interactive cyclone eye SVG:
+ * - Transition/highlight styles
+ * - Responsive sizing helpers
+ */
+
+.root {
+  position: relative;
+  width: 100%;
+  /* Height handled by parent container; SVG is 100% size */
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #f4f8fb; /* subtle scientific light background */
+  border-radius: 1rem;
+}
+
+.part {
+  transition: fill 180ms ease, stroke 180ms ease, opacity 180ms ease, filter 180ms ease;
+  cursor: pointer;
+}
+
+.partFocus {
+  outline: none;
+}
+
+.partFocus:focus-visible {
+  filter: drop-shadow(0 0 0.4rem rgba(37, 99, 235, 0.5));
+}
+
+.active {
+  filter: drop-shadow(0 6px 16px rgba(37, 99, 235, 0.25));
+}
+
+.leader {
+  stroke: #334155; /* slate-700 */
+  stroke-width: 1.5;
+}
+
+.label {
+  font: 600 12px/1.2 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  fill: #0f172a; /* slate-900 */
+}
+
+.labelMuted {
+  font: 500 11px/1.2 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  fill: #334155; /* slate-700 */
+  opacity: 0.9;
+}
+
+.legendCard {
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+.legendCardActive {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(2, 6, 23, 0.08);
+  border-color: #2563eb;
+  background: rgba(219, 234, 254, 0.5);
+}
+
+@media (min-width: 1024px) {
+  .autoHeight {
+    height: 460px;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .autoHeight {
+    height: 360px;
+  }
+}
