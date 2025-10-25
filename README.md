@@ -81,40 +81,6 @@
 ├── tailwind.config.js       # Tailwind CSS配置
 └── vercel.json              # Vercel部署配置
 ```
-
-## 🚀 快速开始
-
-### 环境要求
-- Node.js 16.0 或更高版本
-- npm 或 yarn 包管理器
-
-### 安装步骤
-
-1. **克隆项目**
-   ```bash
-   git clone https://github.com/your-username/typhoon-knowledge-platform.git
-   cd typhoon-knowledge-platform
-   ```
-
-2. **安装依赖**
-   ```bash
-   npm install
-   ```
-
-3. **启动开发服务器**
-   ```bash
-   npm run dev
-   ```
-   
-   服务器启动后，访问 http://localhost:8000 查看项目
-
-4. **构建生产版本**
-   ```bash
-   npm run build
-   ```
-   
-   构建完成后，静态文件将输出到 `dist` 目录
-
 ### 本地预览
 
 构建完成后，可以通过以下方式预览生产版本：
@@ -134,7 +100,7 @@
 ## 🌐 在线访问
 
 项目已部署到Vercel，可通过以下链接直接访问：
-[https://typhoon-knowledge-preservation-ahty.vercel.app/](https://typhoon-knowledge-preservation-ahty.vercel.app/)
+[https://typhoon-knowledge-preservation-2zw2grkgf.vercel.app/]
 
 ## 🤝 贡献指南
 
@@ -197,14 +163,6 @@
 - [Radix UI](https://www.radix-ui.com/) - 无障碍UI组件
 - [Lucide](https://lucide.dev/) - 图标库
 - [esbuild](https://esbuild.github.io/) - 构建工具
-
-## 📞 联系我们
-
-如有任何问题或建议，请通过以下方式联系我们：
-
-- 📧 邮箱：your-email@example.com
-- 🐛 问题反馈：[GitHub Issues](https://github.com/your-username/typhoon-knowledge-platform/issues)
-- 💬 讨论交流：[GitHub Discussions](https://github.com/your-username/typhoon-knowledge-platform/discussions)
 
 ---
 
