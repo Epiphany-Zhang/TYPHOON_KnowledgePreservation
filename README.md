@@ -99,8 +99,9 @@
 
 ## 🌐 在线访问
 
-项目已部署到Vercel，可通过以下链接直接访问：
-[https://typhoon-knowledge-preservation-2zw2grkgf.vercel.app/]
+- 项目已部署到Vercel，可通过以下链接直接访问：[https://typhoon-knowledge-preservation-2zw2grkgf.vercel.app/]
+- 或者可以打开国内部署的域名：[typhoon-knowledge-preservation-ahty.online]
+
 
 ## 🤝 贡献指南
 
